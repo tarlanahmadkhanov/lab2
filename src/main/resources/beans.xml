@@ -11,5 +11,9 @@
         <bean id="classB" class="B">
                 <constructor-arg ref="classA"/>
         </bean>
+        <bean id="classC" class="C">
+                <property name="name" value="Aftandil"/>
+                <property name="count" value="12"/>
+        </bean>
 
 </beans>

@@ -10,6 +10,9 @@ public class App {
         b.sayB();
         b.sayA();
 
+        C c = context.getBean("classC", C.class);
+        System.out.println(c.toString());
+
         context.close();
 
     }
